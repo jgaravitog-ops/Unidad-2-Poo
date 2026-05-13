@@ -17,5 +17,13 @@ public class Main {
         //System.out.println("numeroCuenta: "+ cBancaria1.numeroCuenta);
         cBancaria1.mostrarDetalles();
         
+        System.out.println("---------------");
+        //Ejercicio3
+        Utilidades operacion = new Utilidades();
+
+        System.out.println("Suma 12 y 6 es: "+operacion.suma(12, 6));
+        System.out.println("Resta 12 y 6 es: "+operacion.resta(12, 6));
+        System.out.println("Multiplicar 12 y 6 es: "+operacion.multiplicacion(12, 6));
+        System.out.println("Dividir 12 entre 6 es: "+operacion.division(12, 6));
     }
 }
