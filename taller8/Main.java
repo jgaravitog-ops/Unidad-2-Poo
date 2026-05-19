@@ -7,5 +7,8 @@ public class Main {
         coche1.mostrarDatos();
 
         System.out.println("----------");
+        //Ejercicio 3
+        Estudiante estudiante1 = new Estudiante("Luis", 15, "Activa");
+        estudiante1.mostrarDetalles();
     }
 }
