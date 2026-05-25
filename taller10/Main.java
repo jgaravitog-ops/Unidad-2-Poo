@@ -13,7 +13,11 @@ public class Main {
         
         System.out.println("------------");
         //ejercicio 2
-        
+        Vehiculo veh1 = new Vehiculo();
+        Bicicleta bici1 = new Bicicleta();
+
+        veh1.moverse();
+        bici1.moverse();
         
     }
     
