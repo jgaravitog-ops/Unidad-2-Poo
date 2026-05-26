@@ -13,6 +13,12 @@ public class Main {
         System.out.println("-----------");
         //ejercicio 2
         
+        Gerente gerente1 = new Gerente("Ramiro", 180);
+        Vendedor vendedor1 = new Vendedor("Samir", 5000000);
+
+        gerente1.mostarDetalles();
+        System.out.println("... ... ...");
+        vendedor1.mostarDetalles();
 
     }
 }
