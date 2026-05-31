@@ -12,6 +12,8 @@ public class Main {
 
         System.out.println("-----------------");
         //ejercicio 2
-        
+        Pato pato1 = new Pato("Domestico");
+        pato1.volar();
+        pato1.nadar();
     }
 }
