@@ -9,5 +9,14 @@ public class Main {
         System.out.println("Area circulo: "+circulo1.calcularArea());
         System.out.println("Area Rectangulo: "+ rectangulo1.calcularArea());
 
+
+
+        System.out.println("--------------------");
+        //ejercicio2
+        CuentaBancaria cuenta1 = new CuentaAhorro(1000);
+
+        cuenta1.depositar(500);
+        cuenta1.retirar(300);
+        System.out.println("Saldo de la cuenta: "+cuenta1.getSaldo());
     }
 }
