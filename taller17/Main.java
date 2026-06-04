@@ -18,5 +18,14 @@ public class Main {
         cuenta1.depositar(500);
         cuenta1.retirar(300);
         System.out.println("Saldo de la cuenta: "+cuenta1.getSaldo());
+
+
+        System.out.println("--------------");
+        //ejercicio3
+        Transporte bici1 = new Bicicleta();
+        Transporte coche1 = new Coche();
+
+        bici1.mover();
+        coche1.mover();
     }
 }
